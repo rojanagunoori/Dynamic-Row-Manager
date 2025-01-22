@@ -1,0 +1,126 @@
+
+.add-option-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .add-option-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .add-option-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #0052cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .add-option-button:hover {
+    background-color: #0065ff;
+  }
+  
+
+  .react-select__menu {
+    z-index: 10;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-select__option {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .react-select__option--is-selected {
+    background-color: #0052cc;
+    color: white;
+  }
+  
+  .react-select__option--is-focused {
+    background-color: #e6f7ff;
+  }
+  
+
+  .selected-values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .selected-item {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .remove-btn {
+    background: none;
+    border: none;
+    color: #ff1744;
+    font-size: 14px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    color: #d50000;
+  }
+  
+
+  button {
+    cursor: pointer;
+  }
+  
+  button.isSelected {
+    background-color: #0052cc;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #0065ff;
+  }
+
+.react-select__menu {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+
+  .react-select__option {
+    padding: 10px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .react-select__option:hover {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
