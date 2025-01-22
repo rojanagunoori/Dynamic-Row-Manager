@@ -119,7 +119,7 @@ value={options.filter((opt) => value.includes(opt))}
   );
 }
 
-// styled components
+
 
 const Menu = (props) => {
   const shadow = 'hsla(218, 50%, 10%, 0.1)';
